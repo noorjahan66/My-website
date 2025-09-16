@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noor Jahan - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #e9d5c9;
+      color: #333;
+    }
+
+    h2 {
+      ffont-family: Raleway, "Open Sans", sans-serif;
+      color:#4e2e1a;
+      margin-top: 20px;
+    }
+    p {
+    font-family: fantasy, cursive, serif;
+    font-size: 1.6em;
+  }
+
+    /* Header Section */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 10%;
+      background: #5C180B;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .header-text h3 {
+      font-weight: 400;
+      margin: 10px 0;
+    }
+
+    .header-text p {
+      margin: 15px 0;
+      font-size: 16px;
+      color: #4444;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #6b4226;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #4e2e1a;
+    }
+
+    .header img {
+      max-width: 350px;
+      border-radius: 12px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+   
+/* Floating effect for photo */
+    @keyframes floatPhoto {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .profile img {
+      display: block;
+      margin: 0 auto;
+      width: 280px;
+      height: 290px;
+      border-radius: 6px;
+      border: 3px solid white;
+      animation: floatPhoto 4s ease-in-out infinite, fadeIn 3s ease-in-out;
+    }
+    @keyframes slideInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+        .skills span {
+      display: inline-block;
+      background:#434;
+      color: white;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+        .skills span:hover {
+      transform: scale(1.1);
+      background: #0288d1;
+    }
+    /* Footer */
+    .footer {
+      padding: 30px;
+      text-align: center;
+      background: #6b4226;
+      color: white;
+    }
+    .my-marquee {
+    color: white;
+    font-size: 20px;
+    font-weight: bold; background: #6b4226;
+    direction="right"; scrollamount="5"; behavior="alternate"; loop="infinite"; height="150px";
+  }
+  </style>
+</head>
+<body>
+<marquee class="my-marquee" >
+  "Welcome to my professional portfolio."
+</marquee>
+  <section class="header">
+    <div class="header-text">
+      <h1 style="color:#FFEA00">Noor Jahan</h1>
+      <h style="color:#FFFDD0">Bachelor of Computer Application Student</h>
+      <hr/><h3 style="color:#FFAA33"><b>About me</b></h3>
+      <p style="color:white"><b>I am a dedicated and results-oriented Bachelor of Computer Application student with a strong academic foundation and a passion for technology. Proficient in various programming languages and web development technologies, I have developed a noteworthy project that enhances online shopping experiences.</b></p>
+    </div>
+     <div class="profile">
+    <img src="img.png" alt="Profile Photo">
+  </div></section>
+  
+    <div class="section">
+      
+    </div>
+    <!-- Education -->
+    <div class="section">
+     <hr/> <h2>Education</h2>
+      <ul>
+        <li><b>Bachelor of Computer Application</b> - Vijayanagara Sri Krishna Devaraya University&nbsp;&nbsp;&nbsp;&nbsp;<b>2022 - 2025</b></li>
+        <li><b>Intermediate</b> - Vignaan Independent PU College &nbsp;&nbsp;&nbsp;&nbsp;<b>2019 - 2021</b></li>
+        <li><b>Matriculation</b> - Taha English Medium High School &nbsp;&nbsp;&nbsp;&nbsp;<b>2018 - 2019</b></li>
+      </ul>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section">
+    <hr/>  <h2>Certifications</h2>
+      <ul>
+        <li>Effective Public Speaking Certification</li>
+        <li>Soft Skill Development Certification</li>
+        <li>Digital Fluency Certificate</li>
+        <li>Diploma in Financial Accounting</li>
+        <li>Placement Preparation Program Certificate</li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section skills">
+     <hr/> <h2>Skills</h2><h4><u><b>Technical Skills:</b></u></h4>
+      <span>Html</span> <span>CSS</span> <span>JavaScript</span>
+      <span>Java</span> <span>PHP</span> <span>Python</span>
+      <span>SQL</span> <span>GitHub</span> <span>Data Structures</span>
+     <h4><u><b>Soft Skills:</b></u></h4>  <span>Communication</span> <span>teamwork</span><span> leadership</span><span> problem-solving</span>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+     <hr/> <h2>Projects</h2>
+      <p><b>Online Shopping Mall Management System &nbsp;-&nbsp;</b> March 2025</b></p>
+      <ul>
+        <li>Developed a dynamic web-based application for shop owners.</li>
+        <li>Customers can browse products, add to cart, and purchase.</li>
+        <li>Admin panel for managing shops, payments, and sales reports.</li>
+      </ul>
+    </div>
+
+    <!-- Interests -->
+    <div class="section">
+     <hr/> <h2>Interests</h2>
+      <p>Personal Development, Hosting Events, Traveling, and Adventure Experiences.</p>
+    </div>
+
+    <!-- Languages -->
+    <div class="section">
+      <hr/><h2>Languages</h2>
+      <p>English (Proficient), Kannada (Proficient), Hindi (Proficient), Urdu (Native)</p>
+    </div>
+  </div>
+    <!-- Footer -->
+  <footer class="footer" id="contact">
+    <p>📧 noorjahan.06002@gmail.com | <br>📱 +91 9740872033</p>
+    <p>© Noor Jahan.</p>
+  </footer>
+
+</body>
+</html>
